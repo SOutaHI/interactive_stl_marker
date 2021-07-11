@@ -23,4 +23,8 @@ source devel/setup.bash
 roslaunch interactive_stl_marker generate_interactive_markers.launch
 ```
 
+<p align="center">
+    <img src="./resources/test.png?"width="750" height="436">
+</p>
+
 - If you change stl file path or initialize position and scale, Please check config/param.yaml.
