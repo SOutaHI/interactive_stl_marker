@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>interactive_stl_marker</name>
+  <version>0.0.0</version>
+  <description>interactive_stl_marker package</description>
+  <maintainer email="hirose.sgia@gmail.com">soutahi</maintainer>
+  <license>TODO</license>
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>message_generation</build_depend>
+  <build_depend>rospy</build_depend>
+
+  <build_depend>message_generation</build_depend>
+  <build_depend>visualization_msgs</build_depend>
+  
+  <exec_depend>message_generation</exec_depend>
+  <exec_depend>visualization_msgs</exec_depend>
+
+  <build_export_depend>message_runtime</build_export_depend>
+  
+  <export>
+  </export>
+</package>

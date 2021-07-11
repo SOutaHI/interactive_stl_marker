@@ -1,0 +1,7 @@
+<launch>
+
+    <arg name="param" default="param.yaml"/>
+    <rosparam command="load" file="$(find interactive_stl_marker)/config/$(arg param)"/>
+    <node pkg="interactive_stl_marker" type="interactive_stl_marker_node.py" name="interactive_stl_markers" output="screen"/>
+
+</launch>
